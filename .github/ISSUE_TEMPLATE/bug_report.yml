@@ -1,0 +1,25 @@
+name: Bug report
+description: Help us reproduce a problem in Branchdesk.
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include expected behavior and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Use a minimal fictional repository. Do not include private paths, code, or credentials.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Branchdesk version, OS, Node.js version, Git version, browser
+    validations:
+      required: true
