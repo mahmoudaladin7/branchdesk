@@ -3,7 +3,7 @@
   <h1>Branchdesk</h1>
   <p><strong>Your local repositories, back in focus.</strong></p>
   <p>A calm, read-only workspace for the projects on your machine.<br/>Find unfinished work, check your branches, and pick up where you left off.</p>
-  <p><a href="#a-closer-look">See the screenshots</a> · <a href="#quick-start">Run locally</a> · <a href="docs/ROADMAP.md">Roadmap</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
+  <p><a href="https://mahmoudaladin7.github.io/branchdesk/">Try the live demo</a> · <a href="#quick-start">Run locally</a> · <a href="#a-closer-look">Screenshots</a> · <a href="docs/ROADMAP.md">Roadmap</a> · <a href="CONTRIBUTING.md">Contribute</a></p>
   <p><a href="https://github.com/mahmoudaladin7/branchdesk/actions/workflows/ci.yml"><img src="https://github.com/mahmoudaladin7/branchdesk/actions/workflows/ci.yml/badge.svg" alt="CI status" /></a> <img src="https://img.shields.io/badge/license-MIT-ae98ed" alt="MIT license" /> <img src="https://img.shields.io/badge/Node.js-22.13%2B-8abda2" alt="Node.js 22.13 or newer" /></p>
 </div>
 
@@ -68,7 +68,7 @@ npm run dev
 
 The Vite development server serves the **sample-data demo** at http://127.0.0.1:5173. To test real Git data after UI changes, rebuild and run `npm start`.
 
-A GitHub Pages deployment workflow is included. The hosted demo will be linked here after the first successful deployment; until then, use the local demo or screenshots above. See [publishing the demo](docs/ARCHITECTURE.md#publishing-the-demo).
+[Try the live demo](https://mahmoudaladin7.github.io/branchdesk/) without installing anything. It uses fictional sample repositories and never connects to your filesystem. GitHub Pages redeploys the demo when changes land on `main`; see [publishing the demo](docs/ARCHITECTURE.md#publishing-the-demo).
 
 ### Optional local command
 
