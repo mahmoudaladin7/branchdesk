@@ -10,7 +10,7 @@ The goal is a dependable place to resume local development. This list is a direc
 - [x] Search, status filters, sorting, pins, and grid/list layouts.
 - [x] Dark/light themes and responsive interface.
 - [x] Fictional sample-data demo, screenshots, contribution guide, and integration tests.
-- [ ] Publish the source and enable the GitHub Pages demo.
+- [x] Publish the source and enable the [GitHub Pages demo](https://mahmoudaladin7.github.io/branchdesk/).
 
 ## Next small releases
 
